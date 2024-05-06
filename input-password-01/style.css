@@ -1,0 +1,60 @@
+:root{
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-color: #212529;
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid var( --secondary-color );
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba( 0, 0, 0, 0.15 );
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.field{
+    position: relative;
+}
+
+.field input{
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    border: 1px solid var( --secondary-color );
+    border-radius: 5px;
+    color: var( --text-color );
+}
+
+.field i{
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY( -50% );
+    color: var( --secondary-color );
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.field i.active{
+    color: var( --primary-color );
+}
+
