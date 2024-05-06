@@ -1,0 +1,24 @@
+# Ignorar archivos y carpetas generados por el sistema
+.DS_Store
+
+# Ignorar archivos de respaldo
+*~
+
+# Ignorar archivos de caché
+*.swp
+*.swo
+
+# Ignorar archivos compilados
+*.min.js
+*.min.css
+
+# Ignorar directorios de dependencias
+/node_modules
+/bower_components
+
+# Variables de entorno
+.env
+
+# Workspace de Visual Studio Code
+*.vscode
+*.code-workspace
